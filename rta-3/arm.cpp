@@ -37,6 +37,8 @@ std::numeric_limits<double>::epsilon())
 {
         Eigen::JacobiSVD< _Matrix_Type_ > svd(a ,Eigen::ComputeThinU |
     Eigen::ComputeThinV);
+#undef max
+#undef min
         double tolerance = epsilon * std::max(a.cols(), a.rows())
     *svd.singularValues().array().abs()(0);
         return svd.matrixV() *  (svd.singularValues().array().abs() >
