@@ -1,0 +1,20 @@
+﻿Build started 3/9/2017 3:37:12 PM.
+     1>Project "C:\Users\Saurabh\Desktop\saurabh\rta-3\rta-3\rta-3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Saurabh\Desktop\saurabh\rta-3\rta-3" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt arm.cpp
+         arm.cpp
+     1>c:\users\saurabh\desktop\saurabh\rta-3\rta-3\arm.cpp(55): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\saurabh\desktop\saurabh\rta-3\rta-3\arm.cpp(211): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>c:\users\saurabh\desktop\saurabh\rta-3\rta-3\arm.cpp(40): error C2589: '(': illegal token on right side of '::'
+         c:\users\saurabh\desktop\saurabh\rta-3\rta-3\arm.cpp(102): note: see reference to function template instantiation '_Matrix_Type_ pseudoInverse<Eigen::MatrixXf>(const _Matrix_Type_ &,double)' being compiled
+                 with
+                 [
+                     _Matrix_Type_=Eigen::MatrixXf
+                 ]
+     1>c:\users\saurabh\desktop\saurabh\rta-3\rta-3\arm.cpp(40): error C2059: syntax error: '::'
+     1>c:\users\saurabh\desktop\saurabh\rta-3\rta-3\arm.cpp(43): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+     1>Done Building Project "C:\Users\Saurabh\Desktop\saurabh\rta-3\rta-3\rta-3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.96
