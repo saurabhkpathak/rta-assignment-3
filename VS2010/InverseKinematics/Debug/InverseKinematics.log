@@ -1,0 +1,39 @@
+﻿Build started 15/03/2017 11:28:40.
+     1>Project "\\tholos.itserv.scss.tcd.ie\Pgrad\pathaks\Desktop\rta-assignment-3\VS2010\InverseKinematics\InverseKinematics.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\InverseKinematics.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\structure.cpp
+         structure.cpp
+     1>\\tholos.itserv.scss.tcd.ie\pgrad\pathaks\desktop\rta-assignment-3\src\structure.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>\\tholos.itserv.scss.tcd.ie\pgrad\pathaks\desktop\rta-assignment-3\src\structure.cpp(46): warning C4018: '<' : signed/unsigned mismatch
+     1>\\tholos.itserv.scss.tcd.ie\pgrad\pathaks\desktop\rta-assignment-3\src\structure.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>\\tholos.itserv.scss.tcd.ie\pgrad\pathaks\desktop\rta-assignment-3\src\structure.cpp(80): warning C4018: '<' : signed/unsigned mismatch
+     1>\\tholos.itserv.scss.tcd.ie\pgrad\pathaks\desktop\rta-assignment-3\src\structure.cpp(82): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>\\tholos.itserv.scss.tcd.ie\pgrad\pathaks\desktop\rta-assignment-3\src\structure.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+     1>\\tholos.itserv.scss.tcd.ie\pgrad\pathaks\desktop\rta-assignment-3\src\structure.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+     1>\\tholos.itserv.scss.tcd.ie\pgrad\pathaks\desktop\rta-assignment-3\src\structure.cpp(153): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>\\tholos.itserv.scss.tcd.ie\pgrad\pathaks\desktop\rta-assignment-3\src\structure.cpp(154): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>\\tholos.itserv.scss.tcd.ie\pgrad\pathaks\desktop\rta-assignment-3\src\structure.cpp(163): warning C4305: '+=' : truncation from 'double' to 'float'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\InverseKinematics.exe.embed.manifest.res" Debug\InverseKinematics_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\tholos.itserv.scss.tcd.ie\Pgrad\pathaks\Desktop\rta-assignment-3\VS2010\InverseKinematics\Debug\InverseKinematics.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\InverseKinematics.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\tholos.itserv.scss.tcd.ie\Pgrad\pathaks\Desktop\rta-assignment-3\VS2010\InverseKinematics\Debug\InverseKinematics.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\tholos.itserv.scss.tcd.ie\Pgrad\pathaks\Desktop\rta-assignment-3\VS2010\InverseKinematics\Debug\InverseKinematics.lib" /MACHINE:X86 Debug\InverseKinematics.exe.embed.manifest.res
+         Debug\structure.obj
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\InverseKinematics.exe.embed.manifest" /manifest Debug\InverseKinematics.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\InverseKinematics.exe.embed.manifest.res" Debug\InverseKinematics_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\tholos.itserv.scss.tcd.ie\Pgrad\pathaks\Desktop\rta-assignment-3\VS2010\InverseKinematics\Debug\InverseKinematics.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\InverseKinematics.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\tholos.itserv.scss.tcd.ie\Pgrad\pathaks\Desktop\rta-assignment-3\VS2010\InverseKinematics\Debug\InverseKinematics.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\tholos.itserv.scss.tcd.ie\Pgrad\pathaks\Desktop\rta-assignment-3\VS2010\InverseKinematics\Debug\InverseKinematics.lib" /MACHINE:X86 Debug\InverseKinematics.exe.embed.manifest.res
+         Debug\structure.obj
+         Debug\main.obj
+         InverseKinematics.vcxproj -> \\tholos.itserv.scss.tcd.ie\Pgrad\pathaks\Desktop\rta-assignment-3\VS2010\InverseKinematics\Debug\InverseKinematics.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\InverseKinematics.unsuccessfulbuild".
+         Touching "Debug\InverseKinematics.lastbuildstate".
+     1>Done Building Project "\\tholos.itserv.scss.tcd.ie\Pgrad\pathaks\Desktop\rta-assignment-3\VS2010\InverseKinematics\InverseKinematics.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.57
